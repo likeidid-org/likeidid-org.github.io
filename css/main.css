@@ -137,4 +137,14 @@ p.copyright {
 	margin-top: 50px;
 	color: #fff;
 	text-align: center;
-}	
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+	form.signup input {
+	  width: 100%;
+	}
+	.btn-theme {
+	  width: 100%;
+	}
+}
